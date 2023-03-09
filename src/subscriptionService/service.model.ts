@@ -27,7 +27,7 @@ export const orderSchema = new mongoose.Schema({
     addressId:{type:String, required:true},
     amount:{type:Number, required:true},
 });
-
+//extends mongoose.Document
 export interface USER{
     id: string;
     name: string;
